@@ -6,7 +6,8 @@ Build a fast, light-weight Docker image to run your TensorFlow tasks, leveraging
 ```
 $ docker build -t tensor .
 $ docker run -it tensor
-root@asdf:/# python tensorflow/tensorflow-example.py```
+root@asdf:/# python tensorflow/tensorflow-example.py
+```
 
 The Dockerfile will import all python files in the local directory to /tensorflow/. Feel free to write your python files in your host, then re-build the image to quickly load the modified files.
 
